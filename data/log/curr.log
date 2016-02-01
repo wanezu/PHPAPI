@@ -1,0 +1,272 @@
+set names utf8
+SHOW COLUMNS FROM api_config
+set names utf8
+SHOW COLUMNS FROM api_config
+set names utf8
+SHOW COLUMNS FROM api_config
+set names utf82016-01-31 20:31:51
+SHOW COLUMNS FROM api_config2016-01-31 20:31:51
+set names utf8  2016-01-31 20:32:22
+SHOW COLUMNS FROM api_config  2016-01-31 20:32:22
+set names utf8  2016-01-31 21:18:24
+SHOW COLUMNS FROM api_config  2016-01-31 21:18:24
+set names utf8  2016-01-31 21:19:56
+SHOW COLUMNS FROM api_config  2016-01-31 21:19:56
+set names utf8  2016-01-31 21:19:57
+SHOW COLUMNS FROM api_config  2016-01-31 21:19:57
+set names utf8  2016-01-31 21:19:57
+SHOW COLUMNS FROM api_config  2016-01-31 21:19:57
+set names utf8  2016-01-31 21:25:38
+SHOW COLUMNS FROM api_config  2016-01-31 21:25:38
+set names utf8  2016-01-31 21:25:38
+SHOW COLUMNS FROM api_config  2016-01-31 21:25:38
+set names utf8  2016-01-31 21:25:38
+SHOW COLUMNS FROM api_config  2016-01-31 21:25:38
+set names utf8  2016-01-31 21:25:57
+SHOW COLUMNS FROM api_config  2016-01-31 21:25:57
+set names utf8  2016-01-31 21:25:58
+SHOW COLUMNS FROM api_config  2016-01-31 21:25:58
+set names utf8  2016-01-31 21:25:58
+SHOW COLUMNS FROM api_config  2016-01-31 21:25:58
+set names utf8  2016-01-31 21:33:44
+SHOW COLUMNS FROM api_config  2016-01-31 21:33:44
+set names utf8  2016-01-31 22:45:17
+SHOW COLUMNS FROM api_config  2016-01-31 22:45:17
+set names utf8  2016-01-31 22:45:18
+SHOW COLUMNS FROM api_config  2016-01-31 22:45:18
+set names utf8  2016-01-31 22:45:18
+SHOW COLUMNS FROM api_config  2016-01-31 22:45:18
+set names utf8  2016-01-31 22:56:47
+SHOW COLUMNS FROM api_config  2016-01-31 22:56:47
+set names utf8  2016-01-31 22:56:48
+SHOW COLUMNS FROM api_config  2016-01-31 22:56:48
+set names utf8  2016-01-31 22:56:48
+SHOW COLUMNS FROM api_config  2016-01-31 22:56:48
+set names utf8  2016-01-31 22:59:21
+SHOW COLUMNS FROM api_config  2016-01-31 22:59:21
+set names utf8  2016-01-31 22:59:21
+SHOW COLUMNS FROM api_config  2016-01-31 22:59:21
+set names utf8  2016-01-31 22:59:23
+SHOW COLUMNS FROM api_config  2016-01-31 22:59:23
+set names utf8  2016-01-31 22:59:51
+SHOW COLUMNS FROM api_config  2016-01-31 22:59:51
+set names utf8  2016-01-31 22:59:52
+SHOW COLUMNS FROM api_config  2016-01-31 22:59:52
+set names utf8  2016-01-31 23:00:07
+SHOW COLUMNS FROM api_config  2016-01-31 23:00:07
+set names utf8  2016-01-31 23:00:07
+SHOW COLUMNS FROM api_config  2016-01-31 23:00:07
+set names utf8  2016-01-31 23:00:07
+SHOW COLUMNS FROM api_config  2016-01-31 23:00:07
+set names utf8  2016-01-31 23:00:15
+SHOW COLUMNS FROM api_config  2016-01-31 23:00:15
+set names utf8  2016-01-31 23:02:12
+SHOW COLUMNS FROM api_config  2016-01-31 23:02:12
+set names utf8  2016-01-31 23:03:02
+SHOW COLUMNS FROM api_config  2016-01-31 23:03:02
+set names utf8  2016-01-31 23:03:48
+SHOW COLUMNS FROM api_config  2016-01-31 23:03:48
+set names utf8  2016-01-31 23:03:48
+SHOW COLUMNS FROM api_config  2016-01-31 23:03:48
+set names utf8  2016-01-31 23:03:49
+SHOW COLUMNS FROM api_config  2016-01-31 23:03:49
+set names utf8  2016-01-31 23:04:14
+SHOW COLUMNS FROM api_config  2016-01-31 23:04:14
+set names utf8  2016-01-31 23:04:52
+SHOW COLUMNS FROM api_config  2016-01-31 23:04:52
+set names utf8  2016-01-31 23:05:49
+SHOW COLUMNS FROM api_config  2016-01-31 23:05:49
+set names utf8  2016-01-31 23:06:30
+SHOW COLUMNS FROM api_config  2016-01-31 23:06:30
+set names utf8  2016-01-31 23:06:31
+SHOW COLUMNS FROM api_config  2016-01-31 23:06:31
+set names utf8  2016-01-31 23:06:31
+SHOW COLUMNS FROM api_config  2016-01-31 23:06:31
+set names utf8  2016-01-31 23:06:52
+SHOW COLUMNS FROM api_config  2016-01-31 23:06:52
+set names utf8  2016-01-31 23:06:53
+SHOW COLUMNS FROM api_config  2016-01-31 23:06:53
+set names utf8  2016-01-31 23:06:53
+SHOW COLUMNS FROM api_config  2016-01-31 23:06:53
+set names utf8  2016-01-31 23:06:53
+SHOW COLUMNS FROM api_config  2016-01-31 23:06:53
+set names utf8  2016-01-31 23:07:24
+SHOW COLUMNS FROM api_config  2016-01-31 23:07:24
+set names utf8  2016-01-31 23:07:24
+SHOW COLUMNS FROM api_config  2016-01-31 23:07:24
+set names utf8  2016-01-31 23:07:25
+SHOW COLUMNS FROM api_config  2016-01-31 23:07:25
+set names utf8  2016-01-31 23:07:25
+SHOW COLUMNS FROM api_config  2016-01-31 23:07:25
+set names utf8  2016-01-31 23:07:25
+SHOW COLUMNS FROM api_config  2016-01-31 23:07:25
+set names utf8  2016-01-31 23:07:25
+SHOW COLUMNS FROM api_config  2016-01-31 23:07:25
+set names utf8  2016-01-31 23:07:26
+SHOW COLUMNS FROM api_config  2016-01-31 23:07:26
+set names utf8  2016-01-31 23:08:07
+SHOW COLUMNS FROM api_config  2016-01-31 23:08:07
+set names utf8  2016-01-31 23:08:08
+SHOW COLUMNS FROM api_config  2016-01-31 23:08:08
+set names utf8  2016-01-31 23:08:08
+SHOW COLUMNS FROM api_config  2016-01-31 23:08:08
+set names utf8  2016-01-31 23:08:29
+SHOW COLUMNS FROM api_config  2016-01-31 23:08:29
+set names utf8  2016-01-31 23:08:30
+SHOW COLUMNS FROM api_config  2016-01-31 23:08:30
+set names utf8  2016-01-31 23:08:30
+SHOW COLUMNS FROM api_config  2016-01-31 23:08:30
+set names utf8  2016-01-31 23:09:04
+SHOW COLUMNS FROM api_config  2016-01-31 23:09:04
+set names utf8  2016-01-31 23:09:05
+SHOW COLUMNS FROM api_config  2016-01-31 23:09:05
+set names utf8  2016-01-31 23:09:05
+SHOW COLUMNS FROM api_config  2016-01-31 23:09:05
+set names utf8  2016-01-31 23:09:42
+SHOW COLUMNS FROM api_config  2016-01-31 23:09:42
+set names utf8  2016-01-31 23:09:43
+SHOW COLUMNS FROM api_config  2016-01-31 23:09:43
+set names utf8  2016-01-31 23:09:51
+SHOW COLUMNS FROM api_config  2016-01-31 23:09:51
+set names utf8  2016-01-31 23:09:51
+SHOW COLUMNS FROM api_config  2016-01-31 23:09:51
+set names utf8  2016-01-31 23:09:52
+SHOW COLUMNS FROM api_config  2016-01-31 23:09:52
+set names utf8  2016-01-31 23:09:52
+SHOW COLUMNS FROM api_config  2016-01-31 23:09:52
+set names utf8  2016-01-31 23:10:05
+SHOW COLUMNS FROM api_config  2016-01-31 23:10:05
+set names utf8  2016-01-31 23:10:05
+SHOW COLUMNS FROM api_config  2016-01-31 23:10:05
+set names utf8  2016-01-31 23:10:06
+SHOW COLUMNS FROM api_config  2016-01-31 23:10:06
+set names utf8  2016-01-31 23:10:06
+SHOW COLUMNS FROM api_config  2016-01-31 23:10:06
+set names utf8  2016-01-31 23:10:06
+SHOW COLUMNS FROM api_config  2016-01-31 23:10:06
+set names utf8  2016-01-31 23:10:39
+SHOW COLUMNS FROM api_config  2016-01-31 23:10:39
+set names utf8  2016-01-31 23:10:40
+SHOW COLUMNS FROM api_config  2016-01-31 23:10:40
+set names utf8  2016-01-31 23:10:40
+SHOW COLUMNS FROM api_config  2016-01-31 23:10:40
+set names utf8  2016-01-31 23:11:24
+SHOW COLUMNS FROM api_config  2016-01-31 23:11:24
+set names utf8  2016-01-31 23:12:42
+SHOW COLUMNS FROM api_config  2016-01-31 23:12:42
+set names utf8  2016-01-31 23:12:43
+SHOW COLUMNS FROM api_config  2016-01-31 23:12:43
+set names utf8  2016-01-31 23:13:51
+SHOW COLUMNS FROM api_config  2016-01-31 23:13:51
+set names utf8  2016-01-31 23:14:34
+SHOW COLUMNS FROM api_config  2016-01-31 23:14:34
+set names utf8  2016-01-31 23:15:50
+SHOW COLUMNS FROM api_config  2016-01-31 23:15:50
+set names utf8  2016-01-31 23:15:51
+SHOW COLUMNS FROM api_config  2016-01-31 23:15:51
+set names utf8  2016-01-31 23:15:51
+SHOW COLUMNS FROM api_config  2016-01-31 23:15:51
+set names utf8  2016-01-31 23:16:51
+SHOW COLUMNS FROM api_config  2016-01-31 23:16:51
+set names utf8  2016-01-31 23:23:30
+SHOW COLUMNS FROM api_config  2016-01-31 23:23:30
+set names utf8  2016-01-31 23:23:46
+SHOW COLUMNS FROM api_config  2016-01-31 23:23:46
+set names utf8  2016-01-31 23:24:41
+SHOW COLUMNS FROM api_config  2016-01-31 23:24:41
+set names utf8  2016-01-31 23:24:42
+SHOW COLUMNS FROM api_config  2016-01-31 23:24:42
+set names utf8  2016-01-31 23:24:42
+SHOW COLUMNS FROM api_config  2016-01-31 23:24:42
+set names utf8  2016-01-31 23:25:11
+SHOW COLUMNS FROM api_config  2016-01-31 23:25:11
+set names utf8  2016-01-31 23:25:12
+SHOW COLUMNS FROM api_config  2016-01-31 23:25:12
+set names utf8  2016-01-31 23:25:30
+SHOW COLUMNS FROM api_config  2016-01-31 23:25:30
+set names utf8  2016-01-31 23:25:30
+SHOW COLUMNS FROM api_config  2016-01-31 23:25:30
+set names utf8  2016-01-31 23:25:31
+SHOW COLUMNS FROM api_config  2016-01-31 23:25:31
+set names utf8  2016-01-31 23:26:11
+SHOW COLUMNS FROM api_config  2016-01-31 23:26:11
+set names utf8  2016-01-31 23:26:53
+SHOW COLUMNS FROM api_config  2016-01-31 23:26:53
+set names utf8  2016-01-31 23:45:40
+SHOW COLUMNS FROM api_config  2016-01-31 23:45:40
+set names utf8  2016-01-31 23:45:43
+SHOW COLUMNS FROM api_config  2016-01-31 23:45:43
+set names utf8  2016-01-31 23:46:35
+SHOW COLUMNS FROM api_config  2016-01-31 23:46:35
+set names utf8  2016-01-31 23:46:48
+SHOW COLUMNS FROM api_config  2016-01-31 23:46:48
+set names utf8  2016-01-31 23:47:11
+SHOW COLUMNS FROM api_config  2016-01-31 23:47:11
+set names utf8  2016-01-31 23:47:17
+SHOW COLUMNS FROM api_config  2016-01-31 23:47:17
+set names utf8  2016-01-31 23:47:41
+SHOW COLUMNS FROM api_config  2016-01-31 23:47:41
+set names utf8  2016-01-31 23:47:42
+SHOW COLUMNS FROM api_config  2016-01-31 23:47:42
+set names utf8  2016-01-31 23:47:44
+SHOW COLUMNS FROM api_config  2016-01-31 23:47:44
+set names utf8  2016-01-31 23:47:54
+SHOW COLUMNS FROM api_config  2016-01-31 23:47:54
+set names utf8  2016-01-31 23:48:47
+SHOW COLUMNS FROM api_config  2016-01-31 23:48:47
+set names utf8  2016-01-31 23:50:21
+SHOW COLUMNS FROM api_config  2016-01-31 23:50:21
+set names utf8  2016-01-31 23:51:02
+SHOW COLUMNS FROM api_config  2016-01-31 23:51:02
+set names utf8  2016-01-31 23:53:10
+SHOW COLUMNS FROM api_config  2016-01-31 23:53:10
+set names utf8  2016-01-31 23:53:17
+SHOW COLUMNS FROM api_config  2016-01-31 23:53:17
+set names utf8  2016-01-31 23:58:20
+SHOW COLUMNS FROM api_config  2016-01-31 23:58:20
+set names utf8  2016-01-31 23:58:21
+SHOW COLUMNS FROM api_config  2016-01-31 23:58:21
+set names utf8  2016-01-31 23:58:22
+SHOW COLUMNS FROM api_config  2016-01-31 23:58:22
+set names utf8  2016-02-01 00:00:37
+SHOW COLUMNS FROM api_config  2016-02-01 00:00:37
+set names utf8  2016-02-01 00:02:32
+SHOW COLUMNS FROM api_config  2016-02-01 00:02:32
+set names utf8  2016-02-01 00:02:33
+SHOW COLUMNS FROM api_config  2016-02-01 00:02:33
+set names utf8  2016-02-01 00:02:50
+SHOW COLUMNS FROM api_config  2016-02-01 00:02:50
+set names utf8  2016-02-01 00:02:51
+SHOW COLUMNS FROM api_config  2016-02-01 00:02:51
+set names utf8  2016-02-01 00:02:59
+SHOW COLUMNS FROM api_config  2016-02-01 00:02:59
+set names utf8  2016-02-01 00:03:12
+SHOW COLUMNS FROM api_config  2016-02-01 00:03:12
+set names utf8  2016-02-01 00:03:20
+SHOW COLUMNS FROM api_config  2016-02-01 00:03:20
+set names utf8  2016-02-01 00:03:23
+SHOW COLUMNS FROM api_config  2016-02-01 00:03:23
+set names utf8  2016-02-01 00:03:32
+SHOW COLUMNS FROM api_config  2016-02-01 00:03:32
+set names utf8  2016-02-01 00:06:29
+SHOW COLUMNS FROM api_config  2016-02-01 00:06:29
+set names utf8  2016-02-01 00:06:29
+SHOW COLUMNS FROM api_config  2016-02-01 00:06:29
+set names utf8  2016-02-01 00:06:31
+SHOW COLUMNS FROM api_config  2016-02-01 00:06:31
+set names utf8  2016-02-01 00:06:58
+SHOW COLUMNS FROM api_config  2016-02-01 00:06:58
+set names utf8  2016-02-01 00:07:01
+SHOW COLUMNS FROM api_config  2016-02-01 00:07:01
+set names utf8  2016-02-01 00:07:07
+SHOW COLUMNS FROM api_config  2016-02-01 00:07:07
+set names utf8  2016-02-01 00:07:08
+SHOW COLUMNS FROM api_config  2016-02-01 00:07:08
+set names utf8  2016-02-01 00:07:08
+SHOW COLUMNS FROM api_config  2016-02-01 00:07:08
+set names utf8  2016-02-01 00:07:18
+SHOW COLUMNS FROM api_config  2016-02-01 00:07:18
+set names utf8  2016-02-01 00:07:37
+SHOW COLUMNS FROM api_config  2016-02-01 00:07:37
+set names utf8  2016-02-01 00:07:40
+SHOW COLUMNS FROM api_config  2016-02-01 00:07:40
