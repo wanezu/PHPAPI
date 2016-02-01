@@ -14,6 +14,8 @@ class Response
    * @param string $message 提示信息
    * @param array $data 数据
    * @param string $type 数据类型
+   * @param string $cache 生成缓存数据文件名称
+   * @param integer $time 储存缓存的时间 0表示不限制
    * return string
    */
   public static function show($code,$message = '',$data = array(),$type = self::JSON,$cache = NULL,$time = 0)
@@ -46,7 +48,8 @@ class Response
    * @param integer $code 状态码 && !is_null($cache)
    * @param string $message 提示信息
    * @param array $data 数据
-   * @param string $cache 是否生成缓存
+   * @param string $cache 生成缓存数据文件名称
+   * @param integer $time 储存缓存的时间 0表示不限制
    * return string
    */
   public static function json($code,$message = '',$data = array(),$cache = NULL,$time = 0){
@@ -72,7 +75,8 @@ class Response
    * @param integer $code 状态码 && !is_null($cache)
    * @param string $message 提示信息
    * @param array $data 数据
-   * @param string $cache 是否生成缓存
+   * @param string $cache 生成缓存数据文件名称
+   * @param integer $time 储存缓存的时间 0表示不限制 
    * return string
    */
   public static function xmlEncode($code,$message,$data = array(),$cache = NULL,$time = 0)
