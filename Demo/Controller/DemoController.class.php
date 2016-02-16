@@ -15,12 +15,12 @@ class DemoController extends Controller {
     $message = '成功';
     $config = $this->config_model->getFields();
     $time = 3600;
-    // $data = Response::show($code,$message,$config,$type = 'xml',$cache = 'index',$time);
-    $data = Response::getcache('index','txt');
+    $data = Response::show($code,$message,$config,$type = 'xml',$cache = 'index',$time);
+    // $data = Response::getcache('index','xml');
     echo $data;
   }
 
   public function find(){
-    echo "急促恶化富而后";
+    echo get_client_ip();
   }
 }

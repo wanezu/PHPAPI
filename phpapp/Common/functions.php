@@ -18,7 +18,7 @@ function get_client_ip(){
     $ip = getenv('HTTP_X_FORWARDED_FOR');
   } elseif (getenv('REMOTE_ADDR') && strcasecmp(getenv('REMOTE_ADDR'),'unknown')) {
     $ip = getenv('REMOTE_ADDR');
-  } elseif (isset($_SERVER['REMOTE_ADDR']) && $_SERVER['REMOTE_ADDR'] && strcasecmp($_SERVER['REMOTE_ADDR'],'unknown') {
+  } elseif (isset($_SERVER['REMOTE_ADDR']) && $_SERVER['REMOTE_ADDR'] && strcasecmp($_SERVER['REMOTE_ADDR'],'unknown')) {
     $ip = $_SERVER['REMOTE_ADDR'];
   } else {
     $ip = 'unknown';
