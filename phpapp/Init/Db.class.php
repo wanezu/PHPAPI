@@ -3,7 +3,7 @@
  * 数据库连接类
  */
 
- namespace Lib;
+ namespace Init;
 
  Class Db {
    //用于存储数据库链接

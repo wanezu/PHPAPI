@@ -2,7 +2,7 @@
 /**
  * 模型类
  */
-namespace Lib;
+namespace Init;
 
 class Model
 {
@@ -23,7 +23,7 @@ class Model
     if (method_exists($this,'_initialize')) {
       $this->_initialize();
     }
-    $this->db = getInstance('Lib\Db');
+    $this->db = getInstance('Init\Db');
     $this->table = $GLOBALS['db']['prefix'] . $this->table;
   }
 

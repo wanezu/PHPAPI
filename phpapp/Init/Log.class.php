@@ -1,5 +1,5 @@
 <?php
-namespace Lib;
+namespace Init;
 //记录日志
 class Log
 {

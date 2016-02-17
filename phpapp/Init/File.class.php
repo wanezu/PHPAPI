@@ -1,6 +1,6 @@
 <?php
 
-namespace Lib;
+namespace Init;
 //生成缓存文件
 class File
 {

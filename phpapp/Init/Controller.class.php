@@ -2,7 +2,7 @@
 /**
  * 控制器基类
  */
-namespace Lib;
+namespace Init;
 
 class Controller
 {
@@ -13,7 +13,7 @@ class Controller
    */
   public function __construct()
   {
-    $this->view = getInstance('Lib\View');
+    $this->view = getInstance('Init\View');
     if (method_exists($this,'_initialize')) {
       $this->_initialize();
     }

@@ -2,7 +2,7 @@
 /**
  * 视图类
  */
-namespace Lib;
+namespace Init;
 
 /**
  *

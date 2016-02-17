@@ -1,7 +1,7 @@
 <?php
 
 namespace Demo\Model;
-use Lib\Model;
+use Init\Model;
 
 class ConfigModel extends Model
 {

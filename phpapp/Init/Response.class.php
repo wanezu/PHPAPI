@@ -3,7 +3,7 @@
  * php返回数据类型调用
  */
 
-namespace Lib;
+namespace Init;
 class Response
 {
   const JSON = "json";
@@ -76,7 +76,7 @@ class Response
    * @param string $message 提示信息
    * @param array $data 数据
    * @param string $cache 生成缓存数据文件名称
-   * @param integer $time 储存缓存的时间 0表示不限制 
+   * @param integer $time 储存缓存的时间 0表示不限制
    * return string
    */
   public static function xmlEncode($code,$message,$data = array(),$cache = NULL,$time = 0)

@@ -1,7 +1,7 @@
 <?php
 namespace Demo\Controller;
-use Lib\Controller;
-use Lib\Response;
+use Init\Controller;
+use Init\Response;
 
 class DemoController extends Controller {
   private $config_model;
