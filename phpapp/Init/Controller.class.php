@@ -30,17 +30,17 @@ class Controller
       $this->view->set($name,$data);
     }
   }
-    //视图渲染
-    public function display($name = null)
-    {
-      echo $this->view->render($name);
-    }
+  //视图渲染
+  public function display($name = null)
+  {
+    echo $this->view->render($name);
+  }
 
-    //获取表单提交数据
-    protected function getFormParams()
-    {
-      $params = null;
-      evel("\$params = \$_{$_SERVER['REQUEST_METHOD']};");
-      return $params;
-    }
+  //获取表单提交数据
+  protected function getFormParams()
+  {
+    $params = null;
+    evel("\$params = \$_{$_SERVER['REQUEST_METHOD']};");
+    return $params;
+  }
 }

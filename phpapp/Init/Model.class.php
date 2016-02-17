@@ -34,7 +34,7 @@ class Model
    * @param array $args  调用参数
    * @return mixed
    */
-   public function __call($method,$args)
+  public function __call($method,$args)
   {
    $method = strtolower($method);
    $arg = isset($args[0]) ? $args[0]:'';
@@ -55,9 +55,9 @@ class Model
   }
 
 
-   /**
-    * 获得一个表的列表
-    */
+ /**
+  * 获得一个表的列表
+  */
   public function getFields()
   {
     $sql = 'SHOW COLUMNS FROM ' . $this->table;
@@ -90,19 +90,19 @@ class Model
  /**
   * 查询数据集
   */
-public function select()
-{
-  $sql = 'SELECT ' . (isset($this->options['field'])?$this->options['field']:'*') . ' FROM ' . $this->table;
-  $sql .= !empty($this->options['where'])?' WHERE ' . $this->options['where']:'';
-  $sql .= isset($this->options['order'])?' ORDER BY ' . $this->options['order']:'';
-  $sql .= isset($this->options['limit'])?' LIMIT ' . $this->options['limit']:'';
-  $result = $this->db->execute($sql);
-  return $result;
-}
+  public function select()
+  {
+    $sql = 'SELECT ' . (isset($this->options['field'])?$this->options['field']:'*') . ' FROM ' . $this->table;
+    $sql .= !empty($this->options['where'])?' WHERE ' . $this->options['where']:'';
+    $sql .= isset($this->options['order'])?' ORDER BY ' . $this->options['order']:'';
+    $sql .= isset($this->options['limit'])?' LIMIT ' . $this->options['limit']:'';
+    $result = $this->db->execute($sql);
+    return $result;
+  }
 
-  /**
-   * 查询一条数据
-   */
+/**
+ * 查询一条数据
+ */
  public function find()
  {
    $sql = 'SELECT ' . (isset($this->options['fields'])?$this->options['field']:'*') . ' FROM ' . $this->table;
@@ -146,16 +146,16 @@ public function select()
   /**
    * 删除
    */
- public function delete()
- {
-   $sql = 'DELETE FROM ' . $this->table;
-   $sql .= isset($this->options['where'])?' WHERE ' . $this->options['where']:'';
-   if ($this->db->execute($sql)) {
-     return true;
-   } else {
-     return false;
+   public function delete()
+   {
+     $sql = 'DELETE FROM ' . $this->table;
+     $sql .= isset($this->options['where'])?' WHERE ' . $this->options['where']:'';
+     if ($this->db->execute($sql)) {
+       return true;
+     } else {
+       return false;
+     }
    }
- }
 
 
  /**
