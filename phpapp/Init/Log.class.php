@@ -48,19 +48,4 @@ class Log
       return $log;
     }
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
