@@ -1,9 +1,13 @@
 <?php
 
 //创建获取实例
-function getInstance($class_name){
+function getInstance($class_name,$table = ''){
   if (!isset($GLOBALS['class'][$class_name])) {
-    $GLOBALS['class'][$class_name] = new $class_name();
+    if ($table == '') {
+      $GLOBALS['class'][$class_name] = new $class_name();
+    } else {
+      $GLOBALS['class'][$class_name] = new $class_name($table);
+    }
     return $GLOBALS['class'][$class_name];
   } else {
     return $GLOBALS['class'][$class_name];
@@ -209,4 +213,18 @@ function is_mobile_request() {
 		return true;
 	else
 		return false;
+}
+
+/**
+ * 返回数据函数
+ */
+
+
+/**
+ * 数据model实例化类
+ */
+function M($model){
+  if (file_exists(ROOT . '\Demo\Model\\' . $model. 'Model.class.php')) {
+    return getInstance('Demo\Model\\' . $model. 'Model',$model);
+  }
 }

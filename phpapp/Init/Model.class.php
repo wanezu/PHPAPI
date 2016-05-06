@@ -18,13 +18,13 @@ class Model
   /**
    * 构造函数 连接数据库即实例化DB类
    */
-  public function __construct()
+  public function __construct($table)
   {
     if (method_exists($this,'_initialize')) {
       $this->_initialize();
     }
     $this->db = getInstance('Init\Db');
-    $this->table = $GLOBALS['db']['prefix'] . $this->table;
+    $this->table = $GLOBALS['db']['prefix'] . $table;
   }
 
   /**
@@ -55,9 +55,9 @@ class Model
   }
 
 
- /**
-  * 获得一个表的列表
-  */
+  /**
+   * 获得一个表的列表
+   */
   public function getFields()
   {
     $sql = 'SHOW COLUMNS FROM ' . $this->table;
@@ -65,27 +65,27 @@ class Model
     return $columns;
   }
 
-/**
- * 封装查询语句
- */
- public function getWhereSql()
- {
-   $data = array_filter(getFormParams(),'arrayFilterVal');
-   $fields = $this->getFields();
-   $where = '';
-   if ($data) {
-     $whereArr = null;
-     foreach ($data as $key => $value) {
-       if (array_key_exists($key,$fields)) {
-         $whereArr[] = convertWhere($fields[$key]['type'],$key,$value);
-       }
-     }
-     if ($whereArr) {
-       $where = implode(' AND ',$whereArr);
-     }
-   }
-   return $where;
- }
+  /**
+   * 封装查询语句
+   */
+  public function getWhereSql()
+  {
+    $data = array_filter(getFormParams(),'arrayFilterVal');
+    $fields = $this->getFields();
+    $where = '';
+    if ($data) {
+      $whereArr = null;
+      foreach ($data as $key => $value) {
+        if (array_key_exists($key,$fields)) {
+          $whereArr[] = convertWhere($fields[$key]['type'],$key,$value);
+        }
+      }
+      if ($whereArr) {
+        $where = implode(' AND ',$whereArr);
+      }
+    }
+    return $where;
+  }
 
  /**
   * 查询数据集
