@@ -8,11 +8,20 @@
  Class Db {
    //用于存储数据库链接
    protected $conn;
+   private static $ins = NULL;
 
    //连接数据库
    public function __construct(){
      $this->connect();
    }
+
+   public static function getIns() {
+        if(!(self::$ins instanceof self)) {
+            self::$ins = new self();
+        }
+
+        return self::$ins;
+    }
 
    //连接数据库
    public function connect(){

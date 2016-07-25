@@ -23,5 +23,4 @@ function __autoload($class){
 }
 
 getInstance('Init\Url',substr($_SERVER['PHP_SELF'], (stripos($_SERVER['PHP_SELF'],'index.php') + 10),strlen($_SERVER['PHP_SELF'])));
-
-
+// var_dump($GLOBALS);

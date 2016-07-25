@@ -3,11 +3,11 @@
  * 模型类
  */
 namespace Init;
-
+use Init\Db;
 class Model
 {
   //数据库对象
-  protected $db;
+  protected $db = getInstance('Init' . DS . 'Db');
 
   //数据表
   protected $table;
@@ -18,13 +18,14 @@ class Model
   /**
    * 构造函数 连接数据库即实例化DB类
    */
-  public function __construct($table)
+  public function _initialize($table)
   {
-    if (method_exists($this,'_initialize')) {
-      $this->_initialize();
-    }
-    $this->db = getInstance('Init\Db');
-    $this->table = $GLOBALS['db']['prefix'] . $table;
+      if (method_exists($this,'_initialize')) {
+        $this->_initialize();
+      }
+      $this->db = Db::getIns();
+      $this->db = getInstance('Init\Db');
+      $this->table = $GLOBALS['db']['prefix'] . $table;
   }
 
   /**
@@ -58,9 +59,9 @@ class Model
   /**
    * 获得一个表的列表
    */
-  public function getFields()
+  public function getField()
   {
-    $sql = 'SHOW COLUMNS FROM ' . $this->table;
+    $sql = 'SHOW COLUMNS FROM sj_activity';
     $columns = $this->db->getFields($sql);
     return $columns;
   }

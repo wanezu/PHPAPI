@@ -4,9 +4,9 @@ define('APP_NAME', 'Demo');
 require_once(__DIR__ . '/phpapp/api.php');
 
 
-// $d = getInstance('Demo\Controller\DemoController');
+$d = getInstance('Demo\Controller\DemoController');
 // var_dump($GLOBALS);
-// $d->find();
+$d->find();
 
 // echo $_SERVER['PHP_SELF'];
 // echo $_SERVER["QUERY_STRING"];

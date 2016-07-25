@@ -10,22 +10,22 @@
    protected $url;
 
    //连接数据库
-   public function __construct($url){
-      $this->url = $url;
+   public function __construct(){
       $this->urltesting();
+      getInstance('Init\Model');
    }
 
    //连接数据库
    public function urltesting(){
      $urlconfig = $GLOBALS['url'];
      foreach ($urlconfig as $key => $value) {
-       foreach ($value as $k => $v) {
-        if ($this->url == $k) {
-          $arr = explode("/",$v);
-          $d = getInstance(APP_NAME . '\Controller\\' . $arr[0] . 'Controller');
-          $d->$arr[1]();
+         foreach ($value as $k => $v) {
+            if ($this->url == $k) {
+                $arr = explode("/",$v);
+                $d = getInstance(APP_NAME . '\Controller\\' . $arr[0] . 'Controller');
+                $d->$arr[1]();
+            }
         }
-       }
      }
    }
 }

@@ -224,7 +224,9 @@ function is_mobile_request() {
  * 数据model实例化类
  */
 function M($model){
-  if (file_exists(ROOT . '\Demo\Model\\' . $model. 'Model.class.php')) {
-    return getInstance('Demo\Model\\' . $model. 'Model',$model);
-  }
+    if (file_exists(ROOT . DS . APP_NAME . DS . 'Model' . DS . $model. 'Model.class.php')) {
+        return getInstance('Demo\Model\\' . $model. 'Model',$model);
+    } else {
+        echo "您所关联的" . $model . "数据模型不存在";
+    }
 }
