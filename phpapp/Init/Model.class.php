@@ -7,7 +7,7 @@ use Init\Db;
 class Model
 {
   //数据库对象
-  protected $db = getInstance('Init' . DS . 'Db');
+  protected $db;
 
   //数据表
   protected $table;
