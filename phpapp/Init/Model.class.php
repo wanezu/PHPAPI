@@ -15,18 +15,15 @@ class Model
   protected $options = array();
   protected $methods = array('where','order','limit','field');
 
-  /**
-   * 构造函数 连接数据库即实例化DB类
-   */
-  public function _initialize($table)
-  {
-      if (method_exists($this,'_initialize')) {
-        $this->_initialize();
-      }
-      $this->db = Db::getIns();
-      $this->db = getInstance('Init\Db');
-      $this->table = $GLOBALS['db']['prefix'] . $table;
-  }
+    /**
+    * 构造函数 连接数据库即实例化DB类
+    */
+    public function _initialize($table)
+    {
+        if (method_exists($this,'_initialize')) {
+            $this->_initialize();
+        }
+    }
 
   /**
    * 利用__call方法实现连贯操作
@@ -39,7 +36,7 @@ class Model
   {
    $method = strtolower($method);
    $arg = isset($args[0]) ? $args[0]:'';
-   if (in_array($methos,$this->methods,true)) {
+   if (in_array($method,$this->$method,true)) {
      if ($arg !== '') {
        if ($method == 'where') {
          if ($arg === 'form') {
@@ -61,7 +58,7 @@ class Model
    */
   public function getField()
   {
-    $sql = 'SHOW COLUMNS FROM sj_activity';
+    $sql = 'SHOW COLUMNS FROM ' . $this->table;
     $columns = $this->db->getFields($sql);
     return $columns;
   }
@@ -72,7 +69,7 @@ class Model
   public function getWhereSql()
   {
     $data = array_filter(getFormParams(),'arrayFilterVal');
-    $fields = $this->getFields();
+    $fields = $this->db->getFields();
     $where = '';
     if ($data) {
       $whereArr = null;
@@ -118,7 +115,7 @@ class Model
   public function add($datas)
   {
     $sql = 'INSERT INTO ' . $this->table;
-    $columns = $this->getFields();
+    $columns = $this->db->getFields();
     $fields = '';
     $values = '';
     foreach ($datas as $key => $value) {
@@ -165,7 +162,7 @@ class Model
   public function update($datas)
   {
     $sql = 'UPDATE ' . $this->table . ' SET ';
-    $columns = $this->getFields();
+    $columns = $this->db->getFields();
     $values = '';
     foreach ($datas as $key => $value) {
       if (array_key_exists($key,$columns)) {
