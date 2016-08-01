@@ -6,7 +6,7 @@ require_once(__DIR__ . '/phpapp/api.php');
 
 $d = getInstance('Demo\Controller\DemoController');
 // var_dump($GLOBALS);
-$d->find();
+$d->index();
 
 // echo $_SERVER['PHP_SELF'];
 // echo $_SERVER["QUERY_STRING"];
