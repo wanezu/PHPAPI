@@ -1,0 +1,14 @@
+{
+    "name": "cecotw/cecotw",
+    "description": "cecotw demo",
+    "type": "php",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "cecotw",
+            "email": "249508741@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
