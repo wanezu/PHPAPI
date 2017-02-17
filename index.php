@@ -1,5 +1,5 @@
 <?php
-ini_set('debug','On');
+ini_set('debug', 'On');
 define('APP_NAME', 'Demo');
 require_once(__DIR__ . '/phpapp/api.php');
 
